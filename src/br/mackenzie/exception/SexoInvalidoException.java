@@ -9,17 +9,17 @@ package br.mackenzie.exception;
  *
  * @author Guilherme
  */
-public class PesoInvalidoException extends RuntimeException {
+public class SexoInvalidoException extends RuntimeException {
 
-    public PesoInvalidoException(final Throwable cause) {
+    public SexoInvalidoException(final Throwable cause) {
         super(cause);
     }
 
-    public PesoInvalidoException(final String msg, final Throwable cause) {
+    public SexoInvalidoException(final String msg, final Throwable cause) {
         super(msg, cause);
     }
 
-    public PesoInvalidoException(final String msg) {
+    public SexoInvalidoException(final String msg) {
         super(msg);
     }
 }
